@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.cointainer {
+    padding: 50px 60px;
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'rande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cointainer h1 {
+    font-family: ;
+
+}
+
+.cointainer img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 380px;
+}
+
+.navbar {
+    padding: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+
+
+}
+
+.navbar ol {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 30px;
+    margin: 20px 0;
+    gap: 10px;
+
+}
+
+.card h2 {
+    color: rgb(235, 157, 11);
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.card h1 {
+    color: rgb(44, 147, 199);
+    font-size: 60px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.card p {
+    position: relative;
+    left: 100px;
+    top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(11, 11, 11);
+
+}
+
+
+
+.img1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    right: 30px;
+    left: 60%;
+    bottom: 80px;
+}
+
+.gallery {
+    padding: 60px;
+    cursor: pointer;
+}
+
+.salads {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    left: 20%;
+    bottom: 80px;
+
+
+}
+
+.one {
+    position: relative;
+    right: 30px;
+    left: 24%;
+    bottom: 80px;
+
+
+}
+
+.nachos {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    left: 44%;
+    bottom: 360px;
+
+
+}
+
+.two {
+    position: relative;
+    right: 30px;
+    left: 48%;
+    bottom: 370px;
+
+}
+
+.tachos {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    left: 44%;
+    bottom: 300px;
+
+}
+
+.three {
+    position: relative;
+    right: 30px;
+    left: 48%;
+    bottom: 320px;
+
+}
+
+.enchillada {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    left: 20%;
+    bottom: 595px;
+
+}
+
+.four {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 30px;
+    left: 20%;
+    bottom: 595px;
+
+}
+
+a {
+    position: relative;
+    right: 30px;
+    left: 40%;
+    bottom: 800px;
+}
+
+.button-link {
+    height: 80px;
+    width: 160px;
+    position: relative;
+    bottom: 700px;
+    padding: 16px 40px;
+    font-size: 18px;
+    background-color: #0b0c0b;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.demo {
+    position: relative;
+    right: 30px;
+    left: 25%;
+    bottom: 750px;
+    color: rgb(235, 157, 11);
+    font-size: 50px;
+}
+
+.content {
+    position: relative;
+    right: 30px;
+    left: 45%;
+    bottom: 750px;
+    color: rgb(44, 147, 199);
+    font-size: 50px;
+}
+
+
+.caption {
+    position: relative;
+    bottom: 650px;
+    color: rgb(44, 147, 199);
+    font-size: 30px;
+}
+
+.About {
+    position: relative;
+    bottom: 600px;
+    padding: 16px 40px;
+    font-size: 18px;
+    background-color: #0b0c0b;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#signup{
+    background-color: rgb(39, 129, 165);
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+    right: 20%;
+    left: 50px;
+    bottom: 460px;
+    display: block;
+    width: 80%;
+    height: 200px;
+    border-radius: 60px;
+}
+.box{
+    position: relative;
+    left: 400px;
+    padding: 10px 80px;
+   bottom: 30px;
+   color: black;
+   background-color: white;
+   border: 2px solid white;
+   border-radius: 50px;
+}
+.arrow{
+    position: relative;
+    left: 400px;
+    padding: 2px 2px;
+    bottom: 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-weight: larger;
+}
+.sign{
+      position: relative;
+      right: 300px;
+}
+.up{
+    position: relative;
+    right: 300px;
+    padding: 10px
+}
+.email{
+    position: relative;
+    right: 300px;
+    padding: 10px;
+}
+
+
+.finish {
+    position: relative;
+    right: 30px;
+    left: 10%;
+    bottom: 400px;
+    color: rgb(44, 147, 199);
+    font-size: 50px;
+}
+
+.Fresh {
+    position: relative;
+    right: 30px;
+    left: 20%;
+    bottom: 400px;
+    color: rgb(235, 157, 11);
+}
+
+.insta {
+    position: relative;
+    right: 30px;
+    left: 13%;
+    bottom: 360px;
+    height: 50px;
+    width: 50px;
+    color: rgb(200, 91, 137);
+    
+}
+.fb{
+      position: relative;
+    right: 30px;
+    left: 13%;
+    bottom: 360px;
+    height: 50px;
+    width: 50px;
+}
+.youtube{
+      position: relative;
+    right: 30px;
+    left: 13%;
+    bottom: 360px;
+    height: 50px;
+    width: 50px;
+    color: red;
+}
+
+.x{
+      position: relative;
+    right: 30px;
+    left: 13%;
+    bottom: 360px;
+    color: black;
+}
+
+.opinion{
+    position: relative;
+    right: 30px;
+    left: 13%;
+    bottom: 360px;
+    height: 50px;
+    width: 50px;
+}
+.feedback{
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+.text{
+    padding: 5px 2px;
+    margin: 8px;
+    border: 2px solid black;
+
+}
+.details{
+    position: relative;
+    right: 30px;
+    left: 45%;
+    bottom: 360px;
+    height: 50px;
+    width: 50px;
+    color: #0b0c0b;
+}
+#menu{
+   padding: 10px 5px;
+   position: relative;
+   left: 5%;
+   bottom: 10px;
+}
+#culture{
+     padding: 10px 5px;
+   position: relative;
+   left: 100px;
+   bottom: 55px;
+}
+
+#location{
+     padding: 10px 5px;
+   position: relative;
+   left: 5%;
+   bottom: 10px;
+}
+#careers{
+     padding: 10px 5px;
+   position: relative;
+   left: 100px;
+   bottom: 55px;
+}
+#rewards{
+     padding: 10px 5px;
+   position: relative;
+   left: 5%;
+   bottom: 10px;
+}
+#gifts{
+     padding: 10px 5px;
+   position: relative;
+   left: 100px;
+   bottom: 55px;
+}
+
+
+
+
+.full{
+    background-color: rgb(40, 106, 147);
+}
